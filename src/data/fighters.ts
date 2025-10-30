@@ -17,6 +17,7 @@ export interface Fighter {
   koWins?: number;
   subWins?: number;
   decWins?: number;
+  image?: string;
 }
 
 export const fighters: Fighter[] = [
@@ -38,7 +39,8 @@ export const fighters: Fighter[] = [
     bio: 'Легенда UFC, бывший чемпион в полутяжёлом весе, действующий чемпион в тяжёлом весе. Считается одним из величайших бойцов в истории ММА.',
     koWins: 10,
     subWins: 7,
-    decWins: 11
+    decWins: 11,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/ce16fd7b-891d-48e8-a9de-5ba147d91c1d.jpg'
   },
   {
     id: 2,
@@ -58,7 +60,8 @@ export const fighters: Fighter[] = [
     bio: 'Временный чемпион UFC в тяжёлом весе. Известен своей скоростью и техникой для тяжеловеса.',
     koWins: 9,
     subWins: 5,
-    decWins: 1
+    decWins: 1,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/110aac57-bde7-443d-ad0b-62f833fbdcab.jpg'
   },
   {
     id: 3,
@@ -78,7 +81,8 @@ export const fighters: Fighter[] = [
     bio: 'Бывший временный чемпион UFC в тяжёлом весе. Мастер Муай Тай с элегантным стилем боя.',
     koWins: 8,
     subWins: 1,
-    decWins: 3
+    decWins: 3,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/1cb3089f-7130-43b5-bfa7-ba6e1dadf96f.jpg'
   },
   {
     id: 4,
@@ -118,7 +122,8 @@ export const fighters: Fighter[] = [
     bio: 'Чемпион UFC в полутяжёлом весе. Бывший чемпион Glory по кикбоксингу, известен нокаутирующей силой.',
     koWins: 11,
     subWins: 0,
-    decWins: 1
+    decWins: 1,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/3fcd5e91-700d-4536-aac7-53bed3e86963.jpg'
   },
   {
     id: 6,
@@ -178,7 +183,8 @@ export const fighters: Fighter[] = [
     bio: 'Бывший чемпион UFC в среднем весе. Мастер кикбоксинга с уникальным стилем.',
     koWins: 16,
     subWins: 0,
-    decWins: 8
+    decWins: 8,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/67b4e554-07ab-4269-a9e5-74be0ace4058.jpg'
   },
   {
     id: 9,
@@ -318,7 +324,8 @@ export const fighters: Fighter[] = [
     bio: 'Чемпион UFC в лёгком весе. Ученик Хабиба Нурмагомедова, доминирует в грэпплинге.',
     koWins: 5,
     subWins: 13,
-    decWins: 8
+    decWins: 8,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/9aa972a6-ac30-4b89-a781-92df8b186004.jpg'
   },
   {
     id: 16,
@@ -398,7 +405,8 @@ export const fighters: Fighter[] = [
     bio: 'Первый чемпион UFC в двух весовых категориях одновременно. Самый популярный боец в истории ММА.',
     koWins: 19,
     subWins: 1,
-    decWins: 2
+    decWins: 2,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/d6fd7c3f-f5fb-42d0-94c3-85872b11bfde.jpg'
   },
   {
     id: 20,
@@ -418,7 +426,8 @@ export const fighters: Fighter[] = [
     bio: 'Чемпион UFC в полулёгком весе. Непобеждённый боец грузинского происхождения.',
     koWins: 8,
     subWins: 5,
-    decWins: 3
+    decWins: 3,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/78a40474-45ae-4846-a301-f51563addbb5.jpg'
   },
   {
     id: 21,
@@ -438,7 +447,8 @@ export const fighters: Fighter[] = [
     bio: 'Бывший чемпион UFC в полулёгком весе. Защитил титул рекордные 5 раз подряд.',
     koWins: 13,
     subWins: 3,
-    decWins: 10
+    decWins: 10,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/1a39d3b4-1252-4416-a3eb-ccf6170a58f6.jpg'
   },
   {
     id: 22,
@@ -677,7 +687,8 @@ export const fighters: Fighter[] = [
     bio: 'Легенда UFC, завершил карьеру непобеждённым. Чемпион в лёгком весе, доминировал в грэпплинге.',
     koWins: 8,
     subWins: 11,
-    decWins: 10
+    decWins: 10,
+    image: 'https://cdn.poehali.dev/projects/a9fb18a0-3507-4f6c-8394-cde3bfdfe3f8/files/5de83f52-f4df-40b5-a193-3e954256ed10.jpg'
   },
   {
     id: 34,

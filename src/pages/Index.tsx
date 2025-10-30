@@ -78,7 +78,16 @@ const Index = () => {
                   className="bg-slate-900/80 border-slate-700 hover:border-red-500 transition-all cursor-pointer hover:scale-105"
                   onClick={() => setSelectedFighter(fighter)}
                 >
-                  <CardHeader>
+                  <CardHeader className="pb-2">
+                    {fighter.image && (
+                      <div className="w-full h-48 mb-3 rounded-lg overflow-hidden bg-slate-800">
+                        <img 
+                          src={fighter.image} 
+                          alt={fighter.name}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    )}
                     <div className="flex items-start justify-between">
                       <div>
                         <CardTitle className="text-white text-xl">{fighter.name}</CardTitle>
@@ -180,6 +189,15 @@ const Index = () => {
             {selectedFighter && (
               <>
                 <DialogHeader>
+                  {selectedFighter.image && (
+                    <div className="w-full h-64 mb-4 rounded-lg overflow-hidden bg-slate-800">
+                      <img 
+                        src={selectedFighter.image} 
+                        alt={selectedFighter.name}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  )}
                   <div className="flex items-start justify-between">
                     <div>
                       <DialogTitle className="text-3xl text-white mb-2">
